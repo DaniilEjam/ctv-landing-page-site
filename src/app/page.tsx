@@ -275,6 +275,35 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          <div className="mt-12 rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-white/5 to-transparent p-8 lg:p-10">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+              <div>
+                <p className="text-sm uppercase tracking-[0.2em] text-white/60">AI Creative Studio</p>
+                <h3 className="mt-3 text-2xl sm:text-3xl font-semibold">
+                  From idea to assets in one workspace
+                </h3>
+                <p className="mt-4 text-white/70 leading-relaxed max-w-2xl">
+                  Turn briefs into ready-to-launch creative with AI-generated copy and visuals, then
+                  refine, approve, and publish without leaving ColorTV.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-white/70 w-full lg:w-auto">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-white font-semibold">Idea</p>
+                  <p className="mt-2">Briefs, prompts, and brand inputs.</p>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-white font-semibold">Generate</p>
+                  <p className="mt-2">AI drafts for images, video, and copy.</p>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <p className="text-white font-semibold">Launch</p>
+                  <p className="mt-2">Approve and publish to Meta in minutes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -294,9 +323,9 @@ export default function Home() {
                 <span className="text-3xl font-semibold text-white">01</span>
                 <span className="h-px flex-1 mx-4 bg-gradient-to-r from-white/40 to-transparent" />
               </div>
-              <h3 className="mt-6 text-xl font-semibold">Connect</h3>
+              <h3 className="mt-6 text-xl font-semibold">Idea</h3>
               <p className="mt-3 text-white/65">
-                Connect your Business Account with verified access controls.
+                Capture campaign intent, objectives, and brand inputs.
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -304,9 +333,9 @@ export default function Home() {
                 <span className="text-3xl font-semibold text-white">02</span>
                 <span className="h-px flex-1 mx-4 bg-gradient-to-r from-white/40 to-transparent" />
               </div>
-              <h3 className="mt-6 text-xl font-semibold">Select</h3>
+              <h3 className="mt-6 text-xl font-semibold">Generate</h3>
               <p className="mt-3 text-white/65">
-                Select assets, ad accounts, and teams aligned to your governance model.
+                Produce AI-generated copy and visual assets in minutes.
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
@@ -314,9 +343,9 @@ export default function Home() {
                 <span className="text-3xl font-semibold text-white">03</span>
                 <span className="h-px flex-1 mx-4 bg-gradient-to-r from-white/40 to-transparent" />
               </div>
-              <h3 className="mt-6 text-xl font-semibold">Launch</h3>
+              <h3 className="mt-6 text-xl font-semibold">Refine & Launch</h3>
               <p className="mt-3 text-white/65">
-                Launch and manage ads directly from a unified performance hub.
+                Tweak creatives, approve, and launch campaigns with full governance.
               </p>
             </div>
           </div>
