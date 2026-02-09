@@ -104,7 +104,6 @@ export default function Home() {
               <span className="text-white">
                 <LogoMark />
               </span>
-              <span className="text-lg font-semibold tracking-tight">ColorTV</span>
             </a>
 
             <div className="hidden md:flex md:items-center md:gap-8 text-sm font-medium text-white/80">
@@ -114,7 +113,7 @@ export default function Home() {
               <a href="#how-it-works" className="hover:text-white transition-colors">
                 How it Works
               </a>
-              <a href="#privacy" className="hover:text-white transition-colors">
+              <a href="/privacy" className="hover:text-white transition-colors">
                 Privacy
               </a>
               <a href="/terms" className="hover:text-white transition-colors">
@@ -158,7 +157,7 @@ export default function Home() {
                 How it Works
               </a>
               <a
-                href="#privacy"
+                href="/privacy"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-lg text-white/80 hover:text-white hover:bg-white/5 transition-colors"
               >
@@ -358,7 +357,6 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-3">
                 <LogoMark />
-                <span className="text-lg font-semibold">ColorTV</span>
               </div>
               <p className="mt-4 text-white/60 max-w-md">
                 Built for businesses, agencies, and brands operating complex Meta ad ecosystems.
