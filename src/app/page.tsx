@@ -196,7 +196,8 @@ export default function Home() {
               Scale Your Brand with Automated Meta Ad Management.
             </h1>
             <p className="mt-6 text-lg text-white/70 leading-relaxed">
-              Unify asset access, campaign execution, and optimization for businesses and agencies managing complex Meta portfolios.
+              A one-stop platform for businesses and agencies: go from idea to AI-generated assets to
+              launching high-performing Meta ads with unified execution and optimization.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
@@ -240,7 +241,8 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-xl text-white/65">
-              Designed for B2B teams that need governance, automation, and transparent performance across multiple accounts.
+              Designed for B2B teams that need AI-powered creative generation, governance, automation,
+              and transparent performance across multiple accounts.
             </p>
           </div>
 
@@ -334,12 +336,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 text-sm text-white/70">
-              <a
-                href="https://prod.colortv.com/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors"
-              >
+              <a href="/privacy" className="hover:text-white transition-colors">
                 Privacy Policy
               </a>
               <a href="/terms" className="hover:text-white transition-colors">
