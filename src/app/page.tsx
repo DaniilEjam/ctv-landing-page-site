@@ -121,7 +121,7 @@ export default function Home() {
                 Terms
               </a>
               <a
-                href="#"
+                href="https://prod.colortv.com/login"
                 className="bg-white text-[#0B0F17] px-5 py-2 rounded-full hover:bg-white/90 transition-colors"
               >
                 Login
@@ -172,7 +172,7 @@ export default function Home() {
                 Terms
               </a>
               <a
-                href="#"
+                href="https://prod.colortv.com/login"
                 className="block px-3 py-2 bg-white text-[#0B0F17] rounded-full text-center"
               >
                 Login
