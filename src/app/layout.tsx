@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ColorTV - Automated Meta Ad Management",
+  title: "Created.ai - Automated Meta Ad Management",
   description: "Scale your brand with automated Meta ad management. Connect your Meta assets and manage ad campaigns through a unified, high-performance dashboard.",
 };
 

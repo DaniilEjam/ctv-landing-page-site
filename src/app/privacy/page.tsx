@@ -1,3 +1,28 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description:
+    'Privacy Policy for Created.ai - Learn how we protect your personal and business data.',
+  openGraph: {
+    title: 'Privacy',
+    description:
+      'Privacy Policy for Created.ai - Learn how we protect your personal and business data.',
+    type: 'website',
+    url: 'https://www.created.ai/privacy',
+    siteName: 'Created.ai',
+    images: [
+      {
+        url: 'https://www.created.ai/created-ai-og-image.png',
+        secureUrl: 'https://www.created.ai/created-ai-og-image.png',
+        width: 1536,
+        height: 1024,
+        alt: 'Created.ai',
+      },
+    ],
+  },
+};
+
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-[#0B0F17] text-white">
@@ -16,7 +41,7 @@ export default function PrivacyPage() {
             <p className="mt-3">
               The data controller is ContentCreator Ai, LLC, located at 145 E Columbine Ave, Santa
               Ana, CA 92707. For any privacy-related inquiries or data requests, contact
-              support@colortv.com.
+              support@created.ai.
             </p>
           </section>
 
@@ -84,11 +109,11 @@ export default function PrivacyPage() {
           <section className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-xl font-semibold text-white">6. Data Deletion Instructions</h2>
             <p className="mt-3">
-              To delete your data or remove ColorTV access:
+              To delete your data or remove Created.ai access:
             </p>
             <ol className="mt-2 list-decimal list-inside space-y-1">
               <li>Disconnect the app in Facebook Settings &gt; Apps and Websites.</li>
-              <li>Email support@colortv.com with the subject “Data Deletion Request.”</li>
+              <li>Email support@created.ai with the subject “Data Deletion Request.”</li>
             </ol>
             <p className="mt-3">
               We acknowledge requests within 2 business days and permanently purge data within
@@ -121,10 +146,10 @@ export default function PrivacyPage() {
               Santa Ana, CA 92707<br />
               Email:{' '}
               <a
-                href="mailto:support@colortv.com"
+                href="mailto:support@created.ai"
                 className="text-white hover:text-white/80 underline underline-offset-4"
               >
-                support@colortv.com
+                support@created.ai
               </a>
             </p>
           </section>
